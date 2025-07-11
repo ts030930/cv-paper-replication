@@ -1,5 +1,3 @@
-# cv-paper-replication
-
 # CV Paper Replication
 
 이 리포지토리는 딥러닝 기반 컴퓨터 비전 논문을 직접 읽고 구현한 결과물을 정리한 공간입니다.  
