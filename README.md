@@ -13,10 +13,14 @@
 
 | paper | 분야 | 구현 상태 |
 |------|------|-----------|
-
+| AlexNet | CNN | 구현 중 | 
 
 ## 실행 환경
 
+- 플랫폼: Kaggle Notebooks  
+- GPU: Tesla P100 (16GB VRAM)  
+- Python: 3.10+  
+- PyTorch: 2.x (CUDA 11.8)  
 
 ## Contributing
 
