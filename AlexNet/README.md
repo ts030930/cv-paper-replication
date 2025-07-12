@@ -37,7 +37,7 @@ Max Pooling Layer : kernel =  (3,3), stride = 2
 
 Dropout Layer
 
-Fc 1 Layer : in_features = 6*6*256 (Apply Max Pooling on 13*13*256), out_features = 4096
+Fc 1 Layer : in_features = (6,6,256) (Apply Max Pooling on 13,13,256), out_features = 4096
 
 Dropout Layer
 
