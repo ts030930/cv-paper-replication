@@ -15,6 +15,7 @@
 |------|------|-----------|
 | AlexNet | CNN | 구현 완료 |
 | VGG | CNN | 구현 완료 |
+| GoogleNet | CNN | 구현 중 |
 | ResNet | CNN | 구현중 |
 | EfficientNet | CNN | 구현중 |
 
