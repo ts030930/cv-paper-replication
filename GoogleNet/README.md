@@ -51,21 +51,7 @@ Inception의 아이디어
 
 <img width="1240" height="523" alt="image" src="https://github.com/user-attachments/assets/56c18043-2321-4c07-b6ac-4e313b684a18" />
 
-## Configuration
-
-모델은 A~E까지 있으며 E로 갈수록 Conv Layer의 depth를 증가시킴
-
-첫 Layer의 채널 수는 64개로 시작해서 Max Pooling을 적용 이후마다 채널을 2배 해준다.
-
-## Discussion
-
-(3,3) receptive field 2번과 (5,5) receptivr field 1번은 receptive field의 크기의 관점에서 동일하다.
-
-이 부분을 좀 더 자세히 살표보면, 앞 케이스의 경우 param 수가 2x3x3으로 18이지만 뒤 케이스의 경우 25로 더 많다.
-그리고 ReLU와 같은 비선형 함수를 더 많이 적용가능하고 유연하게 적용가능하다.
-
-
-<img width="878" height="1005" alt="image" src="https://github.com/user-attachments/assets/4ba1a367-7c3c-41c9-bb80-da90fdd69988" />
+t="image" src="https://github.com/user-attachments/assets/4ba1a367-7c3c-41c9-bb80-da90fdd69988" />
 
 
 
