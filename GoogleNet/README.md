@@ -51,8 +51,5 @@ Inception의 아이디어
 
 <img width="1240" height="523" alt="image" src="https://github.com/user-attachments/assets/56c18043-2321-4c07-b6ac-4e313b684a18" />
 
-t="image" src="https://github.com/user-attachments/assets/4ba1a367-7c3c-41c9-bb80-da90fdd69988" />
-
-
 
 
