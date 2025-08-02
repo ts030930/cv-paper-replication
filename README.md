@@ -15,9 +15,8 @@
 |------|------|-----------|
 | AlexNet | CNN | 구현 완료 |
 | VGG | CNN | 구현 완료 |
-| GoogleNet | CNN | 구현 중 |
+| GoogleNet | CNN | 구현 완료 |
 | ResNet | CNN | 구현중 |
-| EfficientNet | CNN | 구현중 |
 
 ## 실행 환경
 
