@@ -22,3 +22,11 @@ H(X) = F(x) + x 로 두고 F(x) = H(x) - x를 학습하는 것을 목표로 하�
 즉 identitiy mapping에서 추가적인 학습이 필요하지 않아 진것을 의미한다.
 
 그리고 이러한 연결은 그림과 같이 short cut으로 이어지게 한다
+
+<img width="331" height="73" alt="image" src="https://github.com/user-attachments/assets/2d72efab-616f-4c08-af0e-27eff771fcb6" />
+
+## 그리고 short cut을 통해 x와 F(x)를 더 할때 x와 F(x)의 차원은 일치해야한다.
+
+<img width="401" height="91" alt="image" src="https://github.com/user-attachments/assets/d49c8e48-14a1-4bf2-a501-09b66b6995bb" />
+
+그 경우에 위 식과 같이 linear projection (stride (2,2), Conv1 ) 을 이용하여 차원을 일치시킨뒤 연산한다.
