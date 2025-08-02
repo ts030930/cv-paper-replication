@@ -21,3 +21,4 @@
 H(X) = F(x) + x 로 두고 F(x) = H(x) - x를 학습하는 것을 목표로 하여 identity mapping에서 성능 향상을 도모했다.
 즉 identitiy mapping에서 추가적인 학습이 필요하지 않아 진것을 의미한다.
 
+그리고 이러한 연결은 그림과 같이 short cut으로 이어지게 한다
