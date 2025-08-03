@@ -30,3 +30,20 @@ H(X) = F(x) + x 로 두고 F(x) = H(x) - x를 학습하는 것을 목표로 하�
 <img width="401" height="91" alt="image" src="https://github.com/user-attachments/assets/d49c8e48-14a1-4bf2-a501-09b66b6995bb" />
 
 그 경우에 위 식과 같이 linear projection (stride (2,2), Conv1 ) 을 이용하여 차원을 일치시킨뒤 연산한다.
+
+
+# Network Architectures
+<img width="565" height="1249" alt="image" src="https://github.com/user-attachments/assets/84e54361-1795-41d1-ae34-50e343c1d173" />
+
+위 사진에서 실선으로 표현된 short cut은 차원이 동일한 경우고 점선인 경우는 차원이 동일하지 않을 경우이다.
+차원이 동일하지 않은 경우 앞써 설명한 방식대로 해결한다.
+
+SGD를 사용하며, mini batch는 256이다
+
+
+<img width="832" height="369" alt="image" src="https://github.com/user-attachments/assets/9cfba1b9-8d68-4f1c-8abc-c38cb89cde76" />
+
+
+layer 수에 따른 변화는 위 사진과 같고
+
+resnet 34를 구현하였다.
